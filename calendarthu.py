@@ -148,7 +148,7 @@ if __name__ == "__main__":
 	import sys
 	path = sys.argv[1]
 	# path = 'class2015.xls'
-	startd = date(2015,9,13)
+	startd = date(2016,2,21)
 	book = xlrd.open_workbook(path)
 	result = calget(book,startd)
 	with open('sca.ics','w') as outf:
